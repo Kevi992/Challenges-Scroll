@@ -629,11 +629,11 @@ abstract contract ERC20 is Context, IERC20, IERC20Metadata, IERC20Errors {
 pragma solidity ^0.8.24;
 
  
-// Kevi ERC20 Token Contract
-contract Kevi is ERC20 {
+// Kevin ERC20 Token Contract
+contract Kevin is ERC20 {
  
     // Constructor that mints the initial supply to the deployer's address
-    constructor(uint256 initialSupply) ERC20("Kevi", "KEV") {
+    constructor(uint256 initialSupply) ERC20("Kevin", "KEV") {
         _mint(msg.sender, initialSupply); // Mint the initial supply of tokens to the deployer's address
     }
  
